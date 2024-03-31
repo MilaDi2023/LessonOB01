@@ -1,13 +1,13 @@
 class Warrior():
 
-    def __init__(self, name, power, endurance, hair_color): # создаем функцию/метод с характеристиками имя, сила, выносливость, цвет волос
-        self.name = name
-        self.power = power
-        self.endurance = endurance
-        self.hair_color = hair_color
+    def __init__(self, name, power, endurance, hair_color): # Создаем свойства/характеристики объекта класса Warrior
+        self.name = name # имя
+        self.power = power # сила
+        self.endurance = endurance # выносливость
+        self.hair_color = hair_color # цвет волос
 
     # А теперь создаём методы того, что может делать объект класса Warrior
-    
+
     def sleep(self): # Метод Спать
         print(f"Воин {self.name} лёт спать")
         self.endurance += 2
