@@ -6,6 +6,8 @@ class Warrior():
         self.endurance = endurance
         self.hair_color = hair_color
 
+    # А теперь создаём методы того, что может делать объект класса Warrior
+    
     def sleep(self): # Метод Спать
         print(f"Воин {self.name} лёт спать")
         self.endurance += 2
