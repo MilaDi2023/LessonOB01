@@ -29,3 +29,35 @@ class Warrior():
         print(f"Его выносливость - {self.endurance}")
         print(f"А цвет его волос - {self.hair_color}")
 
+# Создаём объект класса Warrior
+
+warrior1 = Warrior("Добрыня Никитич", 76, 54, "светло-русый")
+warrior2 = Warrior("Алёша Попович", 45, 23, "шатен")
+
+# print(warrior1.name)
+# print(warrior1.power)
+# print(warrior1.endurance)
+# print(warrior1.hair_color)
+
+
+# print(warrior1.endurance)
+# warrior1.sleep()
+# print(warrior1.endurance)
+# print(warrior1.power)
+# warrior1.eat()
+# print(warrior1.power)
+
+warrior1.info()
+warrior1.sleep()
+warrior1.eat()
+warrior1.hit()
+warrior1.walk()
+
+warrior2.info()
+warrior2.sleep()
+warrior2.eat()
+warrior2.hit()
+warrior2.walk()
+
+
+
